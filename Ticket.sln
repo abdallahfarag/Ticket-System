@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C8F01FBD-3E3F-40FB-8BCB-4DD440F69AF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8030C2E1-D767-4930-BB7A-CA04EF1D77CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{99C1C888-6012-4A83-B44C-7CA7120FC75F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.API", "Ticket.API\Ticket.API.csproj", "{1D619F4F-4A17-42AB-BC48-0880238A2D9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.Domain", "Ticket.Domain\Ticket.Domain.csproj", "{65DEFD2E-8BB4-4582-8043-77E174DE5232}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.Application", "Ticket.Application\Ticket.Application.csproj", "{6310357A-AA0D-44E6-90FC-F2AE264E5050}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.Persistence", "Ticket.Persistence\Ticket.Persistence.csproj", "{2FFA996F-8EBA-4071-9E56-038CFE0E5C43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{ABF5F33F-1061-4060-9E37-B80F5FF5EC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticket.Common", "Ticket.Common\Ticket.Common.csproj", "{2C120F49-BA74-46CC-95D0-65165480213D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D619F4F-4A17-42AB-BC48-0880238A2D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D619F4F-4A17-42AB-BC48-0880238A2D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D619F4F-4A17-42AB-BC48-0880238A2D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D619F4F-4A17-42AB-BC48-0880238A2D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DEFD2E-8BB4-4582-8043-77E174DE5232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DEFD2E-8BB4-4582-8043-77E174DE5232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DEFD2E-8BB4-4582-8043-77E174DE5232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DEFD2E-8BB4-4582-8043-77E174DE5232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6310357A-AA0D-44E6-90FC-F2AE264E5050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6310357A-AA0D-44E6-90FC-F2AE264E5050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6310357A-AA0D-44E6-90FC-F2AE264E5050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6310357A-AA0D-44E6-90FC-F2AE264E5050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFA996F-8EBA-4071-9E56-038CFE0E5C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFA996F-8EBA-4071-9E56-038CFE0E5C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFA996F-8EBA-4071-9E56-038CFE0E5C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFA996F-8EBA-4071-9E56-038CFE0E5C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C120F49-BA74-46CC-95D0-65165480213D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C120F49-BA74-46CC-95D0-65165480213D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C120F49-BA74-46CC-95D0-65165480213D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C120F49-BA74-46CC-95D0-65165480213D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D619F4F-4A17-42AB-BC48-0880238A2D9D} = {99C1C888-6012-4A83-B44C-7CA7120FC75F}
+		{65DEFD2E-8BB4-4582-8043-77E174DE5232} = {C8F01FBD-3E3F-40FB-8BCB-4DD440F69AF6}
+		{6310357A-AA0D-44E6-90FC-F2AE264E5050} = {C8F01FBD-3E3F-40FB-8BCB-4DD440F69AF6}
+		{2FFA996F-8EBA-4071-9E56-038CFE0E5C43} = {8030C2E1-D767-4930-BB7A-CA04EF1D77CA}
+		{2C120F49-BA74-46CC-95D0-65165480213D} = {ABF5F33F-1061-4060-9E37-B80F5FF5EC2A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29621A46-451F-4310-BF8B-135AC0D2E31D}
+	EndGlobalSection
+EndGlobal
